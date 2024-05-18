@@ -1,0 +1,33 @@
+body{
+  background-color: whitesmoke
+}
+
+
+.data-container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.item-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  margin-block: 10px;
+  margin-inline: 20px;
+  width: min-content;
+}
+
+.item-container h3 {
+  margin-top: 0;
+}
+
+.item-container a {
+  color: blue;
+  text-decoration: underline;
+}
